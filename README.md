@@ -41,7 +41,7 @@ This chatbot conducts a sentiment analysis related to the emotion of being moved
 1. Run the Streamlit app:
 
     ```bash
-    streamlit run app.py
+    streamlit run appg.py
     ```
 ## Configuration
 
@@ -50,7 +50,6 @@ This chatbot conducts a sentiment analysis related to the emotion of being moved
 The `.env` file should contain the following environment variables:
 
 - `API_KEY`: The API key for the ChatOpenAI model 
-
 
 
 ## Contributing
