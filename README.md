@@ -16,7 +16,6 @@ This chatbot conducts a sentiment analysis related to the emotion of being moved
 
     ```bash
     git clonehttps://github.com/nugh75/chatbotc.git 
-    cd PDF-Insight-Bot
     ```
 
 2. Create a virtual environment (optional but recommended):
