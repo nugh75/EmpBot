@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_openai import ChatOpenAI
 import faiss
 import numpy as np
@@ -16,7 +16,7 @@ llama_model = ChatOpenAI(
 embeddings_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L12-v2")
 
 # Carica il file di testo
-file_path = '/home/nugh75/git-repository/chatbotc/commozione.txt'
+file_path = 'commozione.txt'
 with open(file_path, 'r', encoding='utf-8') as f:
     text = f.read()
 
