@@ -15,7 +15,7 @@ This chatbot conducts a sentiment analysis related to the emotion of being moved
 1. Clone the repository:
 
     ```bash
-    git clonehttps://github.com/nugh75/chatbotc.git 
+    git clone https://github.com/nugh75/chatbotc.git 
     ```
 
 2. Create a virtual environment (optional but recommended):
